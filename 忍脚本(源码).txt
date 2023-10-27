@@ -1,0 +1,658 @@
+loadstring(game:HttpGet("https://pastebin.com/raw/6xQ5gtbj"))();
+local ui = loadstring(game:HttpGet"https://pastebin.com/raw/E9PzvbeX")()
+local window = ui:new("最终版")
+
+local UITab1 = window:Tab("UI设置",'6035145364')
+local GYTab1 = window:Tab("关于",'6035145364')
+local Player1 = window:Tab("基础功能",'6035145364')
+local DoorsTab1 = window:Tab("DOORS",'6035145364')
+local FMTab1 = window:Tab("背上只因剑",'6035145364')
+local JY1 = window:Tab("自然灾害",'6035145364')
+local JS1 = window:Tab("战争大亨",'6035145364')
+local Tab1 = window:Tab("脚本中心",'6035145364')
+local UITab = UITab1:section("UI设置",true)
+local GYTab = GYTab1:section("关于",true)
+local Player = Player1:section("基础功能",true)
+local DoorsZWTab = DoorsTab1:section("中文脚本",false)
+local DoorsZHTab = DoorsTab1:section("招换物品",false)
+local DoorsQTTab = DoorsTab1:section("其他",false)
+local DoorsTab = DoorsTab1:section("英语脚本",false)
+local FMTab = FMTab1:section("背上只因剑",true)
+local JY = JY1:section("自然灾害",true)
+local JS = JS1:section("战争大亨",true)
+local Tab = Tab1:section("脚本中心",true)
+
+GYTab:Button("指令 1.esp2.xary3.fly4.tpua5.fling", function()
+setclipboard("114514")
+end)
+GYTab:Button("关闭在面加un 比如unesp", function()
+setclipboard("6")
+end)
+
+
+    UITab:Button("摧毁UI",function()
+        game:GetService("CoreGui")["frosty"]:Destroy()
+    end)
+
+    UITab:Toggle("彩虹UI", "", false, function(state)
+        if state then
+        game:GetService("CoreGui")["frosty"].Main.Style = "DropShadow"
+        else
+            game:GetService("CoreGui")["frosty"].Main.Style = "Custom"
+        end
+    end)
+
+Player:Button("飞行V3", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/12QSF0/774/main/%E9%A3%9E%E8%A1%8CV3.txt')))()
+end)
+Player:Button("飞车", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+end)
+JS:Button("😭😭😭😭", function()
+      loadstring(game:HttpGet('https://pastebin.com/raw/rqnKXF4h'))();
+end)
+Player:Button("IY", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+JS:Button("1", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0wartycoon", true))()
+end)
+
+JS:Button("Qi", function()
+	SF_V7 = "作者_神罚"SheFa = "QQ群637340150"loadstring(game:HttpGet(('https://raw.githubusercontent.com/WDQi/SF/main/%E7%9C%8B%E4%BD%A0M.txt')))()
+end)
+
+JS:Button("剑客(需要加入群组)", function()
+	jianke_V3 = "作者_初夏"
+
+jianke = "剑客QQ群347724155"
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/jiankeQWQ/jiankeV3/main/jianke_V3')))()
+end)
+
+JS:Button("导管中心", function()
+    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\117\115\101\114\97\110\101\119\114\102\102\47\114\111\98\108\111\120\45\47\109\97\105\110\47\37\69\54\37\57\68\37\65\49\37\69\54\37\65\67\37\66\69\37\69\53\37\56\68\37\56\70\37\69\56\37\65\69\37\65\69\34\41\41\40\41\10")()
+end)
+
+Player:Toggle("范围", "", false, function(Value)
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/12QSF0/795/main/%E8%8C%83%E5%9B%B4%E6%BA%90%E7%A0%81.txt')))()
+end)
+
+Player:Toggle("ESPV1", "", false, function(Value)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkolymYT/Scriptss/master/KittyGUI.lua"))()
+end)
+
+Player:Toggle("ESPV2", "", false, function(Value)
+    loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
+end)
+
+FMTab:Button("😭😭😭😭", function()
+      loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\101\121\77\117\74\68\50\52\34\41\41\40\41\59\10")()
+end)
+       
+FMTab:Button("快速挥剑", function()
+       repeat task.wait() until game:IsLoaded()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Breadido/misc_scripts/main/Sword_Warriors%20-%20Instant_Sword_Swing'))()
+end)
+                      
+    
+FMTab:Button("脚本1", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0swordwarrior"))()
+end)
+    
+FMTab:Button("脚本2🔥🔥🔥", function()
+      loadstring(game:HttpGet(('https://raw.githubusercontent.com/malicious-dev/RobloxScripting/main/swordwarrior.lua'),true))()
+end)
+  
+    FMTab:Button("暂无",function()
+          loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
+    end)
+  
+    FMTab:Button("暂无",function()
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(250.25030517578125, 2.9999992847442627, 58.71333694458008)
+    end)
+    
+    FMTab:Button("暂无",function()
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(247.29002380371094, 2.9999992847442627, -98.25011444091797)
+    end)
+    
+    FMTab:Button("暂无",function()
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1135.178466796875, -1.200014591217041, -204.43283081054688)
+    end)
+    
+    FMTab:Button("暂无",function()
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4609.23291015625, 7.0008392333984375, -775.59375)
+    end)
+        
+    FMTab:Button("暂无",function()
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1615.8934326171875, 622.9998779296875, 1086.1234130859375)
+    end)
+JY:Button("变形脚本", function()
+    --[[
+NOTE: due to a recent roblox change this script will most likely wont work,
+More info: https://www.youtube.com/post/Ugkxd2msc7Mh8Ue0bX2_XsE5xQiFY2mYJDSa
+]]
+--Made by Rouxhaver
+--R6 required
+--type "/e follow <Username>" to change the target
+
+--REQUIRED ACCESSORYS:
+--https://www.roblox.com/catalog/48474313/Red-Roblox-Cap
+--https://www.roblox.com/catalog/451220849/Lavender-Updo
+--https://www.roblox.com/catalog/62234425/Brown-Hair
+--https://www.roblox.com/catalog/63690008/Pal-Hair
+--https://www.roblox.com/catalog/62724852/Chestnut-Bun
+
+--MAKE SURE to wear 5 other accessorys
+
+--Network Library made by 4eyes 
+--Remove this loadstring if you want to use your own netless/netbypass
+--[[
+4eyes: https://v3rmillion.net/member.php?action=profile&uid=2636118
+
+rouxhaver did not make this!
+Im simply reposting so I can put more in the loadstring.
+
+loadstring(game:HttpGet(""))()
+
+]]
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local LocalPlayer = Players.LocalPlayer
+--[[
+Example script:
+coroutine.resume(Network["PartOwnership"]["Enable"])
+--Network.CharacterRelative = false
+Network.RetainPart(Part)
+
+--]]
+if not getgenv().Network then
+	getgenv().Network = {
+		BaseParts = {};
+		FakeConnections = {};
+		Connections = {};
+		Output = {
+			Enabled = true;
+			Prefix = "[NETWORK] ";
+			Send = function(Type,Output,BypassOutput)
+				if typeof(Type) == "function" and (Type == print or Type == warn or Type == error) and typeof(Output) == "string" and (typeof(BypassOutput) == "nil" or typeof(BypassOutput) == "boolean") then
+					if Network["Output"].Enabled or BypassOutput then
+						Type(Network["Output"].Prefix..Output);
+					end;
+				elseif Network["Output"].Enabled then
+					error(Network["Output"].Prefix.."Output Send Error : Invalid syntax.");
+				end;
+			end;
+		};
+		LostParts = {};
+		CharacterRelative = true;
+		LastCharacter = nil;
+		TryKeep = true; --loop attempts to
+		PartOwnership = {
+			PreMethodSettings = {};
+			Enabled = false;
+		};
+	}
+
+	Network["Output"].Send(print,": Loading.")
+
+	Network["RetainPart"] = function(Part,Silent,ReturnFakePart) --function for retaining ownership of unanchored parts
+		assert(Network["PartOwnership"]["Enabled"], Network["Output"].Prefix.." RetainPart Error : PartOwnership is Disabled.")
+		assert(typeof(Part) == "Instance" and Part:IsA("BasePart") and not Part:IsGrounded(),Network["Output"].Prefix.."RetainPart Error : Invalid syntax: Arg1 (Part) must be an ungrounded BasePart which is a descendant of workspace.")
+		if not Part:IsDescendantOf(workspace) then
+			Network["Output"].Send(error,"RetainPart Error : Invalid syntax: Arg1 (Part) must be an ungrounded BasePart which is a descendant of workspace.")
+			local Index = table.find(Network["LostParts"],Part)
+			if Index then
+				table.remove(Network["LostParts"],Index)
+			end
+			return false
+		end
+		assert(typeof(Silent) == "boolean" or typeof(Silent) == "nil",Network["Output"].Prefix.."RetainPart Error : Invalid syntax: Arg2 (Silent) must be a boolean or nil.")
+		assert(typeof(ReturnFakePart) == "boolean" or typeof(ReturnFakePart) == "nil",Network["Output"].Prefix.."RetainPart Error : Invalid syntax: Arg3 (ReturnFakePart) must be a boolean or nil.")
+		if not table.find(Network["BaseParts"],Part) and not table.find(Network["LostParts"],Part) then
+			table.insert(Network["BaseParts"],Part)
+			Part.CustomPhysicalProperties = PhysicalProperties.new(0,0,0,0,0)
+			if not Silent then
+				Network["Output"].Send(print,"PartOwnership Output : PartOwnership applied to BasePart "..Part:GetFullName()..".")
+			end
+			if ReturnFakePart then
+				local workspaceParts = {}
+				return FakePart
+			end
+		else
+			Network["Output"].Send(warn,"RetainPart Warning : PartOwnership not applied to BasePart "..Part:GetFullName()..", as it already active.")
+			return false
+		end
+	end
+
+	Network["RemovePart"] = function(Part,Silent) --function for removing ownership of unanchored part
+		assert(typeof(Part) == "Instance" and Part:IsA("BasePart"),Network["Output"].Prefix.."RemovePart Error : Invalid syntax: Arg1 (Part) must be a BasePart.")
+		local Index1 = table.find(Network["BaseParts"],Part)
+		local Index2 = table.find(Network["LostParts"],Part)
+		if Index1 then
+			table.remove(Network["BaseParts"],Index1)
+		else
+			if not Silent then
+				Network["Output"].Send(warn,"RemovePart Warning : BasePart "..Part:GetFullName().." not found in BaseParts table.")
+			end
+			return
+		end
+		if Index2 then
+			table.remove(Network["LostParts"],Index2)
+		end
+		if not Silent then
+			Network["Output"].Send(print,"RemovePart Output: PartOwnership removed from BasePart "..Part:GetFullName()..".")
+		end
+	end
+
+	Network["PartOwnership"]["PartCoroutine"] = coroutine.create(function(Part)
+		if Part:IsDescendantOf(workspace) then
+			if Network.CharacterRelative then
+				local Character = Network["LastCharacter"];
+				if not Character.PrimaryPart then
+					for _,Inst in pairs(Character:GetDescendants()) do
+						if Inst:IsA("BasePart") then
+							Character.PrimaryPart = Inst
+							break
+						end
+					end
+				end
+				if Character and Character.PrimaryPart then
+					local Distance = (Character.PrimaryPart.Position - Part.Position).Magnitude
+					if Distance > gethiddenproperty(LocalPlayer,"MaximumSimulationRadius") and not isnetworkowner(Part) then
+						Network["Output"].Send(warn,"PartOwnership Warning : PartOwnership not applied to BasePart "..Part:GetFullName()..", as it is more than "..gethiddenproperty(LocalPlayer,"MaximumSimulationRadius").." studs away.")
+						Network["RemovePart"](Part)
+						if not Part:IsGrounded() then
+							table.insert(Network["LostParts"],Part)
+						else
+							Network["Output"].Send(warn,"PartOwnership Warning : PartOwnership not applied to BasePart "..Part:GetFullName()..", as it is grounded.")
+						end
+					end
+				else
+					Network["Output"].Send(warn,"PartOwnership Warning : PartOwnership not applied to BasePart "..Part:GetFullName()..", as the LocalPlayer Character's PrimaryPart does not exist.")
+				end
+			end
+			Part.AssemblyLinearVelocity = (Part.AssemblyLinearVelocity.Unit+Vector3.new(.01,.01,.01))*(50+math.cos(tick()*10))
+		else
+			Network["RemovePart"](Part)
+		end
+	end)
+
+	Network["PartOwnership"]["Enable"] = coroutine.create(function() --creating a thread for network stuff
+		if not Network["PartOwnership"]["Enabled"] then
+			Network["PartOwnership"]["Enabled"] = true
+			Network["PartOwnership"]["PreMethodSettings"].ReplicationFocus = LocalPlayer.ReplicationFocus
+			LocalPlayer.ReplicationFocus = workspace
+			Network["PartOwnership"]["PreMethodSettings"].SimulationRadius = gethiddenproperty(LocalPlayer,"SimulationRadius")
+			Network["PartOwnership"]["Connection"] = RunService.Stepped:Connect(function()
+				Network["LastCharacter"] = pcall(function() return LocalPlayer.Character end) or Network["LastCharacter"]
+				sethiddenproperty(LocalPlayer,"SimulationRadius",1/0)
+				coroutine.wrap(function()
+					for _,Part in pairs(Network["BaseParts"]) do --loop through parts and do network stuff
+						coroutine.resume(Network["PartOwnership"]["PartCoroutine"],Part)
+						--[==[ [[by 4eyes btw]] ]==]--
+					end
+				end)()
+				coroutine.wrap(function()
+					for _,Part in pairs(Network["LostParts"]) do
+						Network.RetainPart(Part,true)
+					end
+				end)()
+			end)
+			Network["Output"].Send(print,"PartOwnership Output : PartOwnership enabled.")
+		else
+			Network["Output"].Send(warn,"PartOwnership Output : PartOwnership already enabled.")
+		end
+	end)
+
+	Network["PartOwnership"]["Disable"] = coroutine.create(function()
+		if Network["PartOwnership"]["Connection"] then
+			Network["PartOwnership"]["Connection"]:Disconnect()
+			LocalPlayer.ReplicationFocus = Network["PartOwnership"]["PreMethodSettings"].ReplicationFocus
+			sethiddenproperty(LocalPlayer,"SimulationRadius",Network["PartOwnership"]["PreMethodSettings"].SimulationRadius)
+			Network["PartOwnership"]["PreMethodSettings"] = {}
+			for _,Part in pairs(Network["BaseParts"]) do
+				Network["RemovePart"](Part)
+			end
+			for Index,Part in pairs(Network["LostParts"]) do
+				table.remove(Network["LostParts"],Index)
+			end
+			Network["PartOwnership"]["Enabled"] = false
+			Network["Output"].Send(print,"PartOwnership Output : PartOwnership disabled.")
+		else
+			Network["Output"].Send(warn,"PartOwnership Output : PartOwnership already disabled.")
+		end
+	end)
+
+	Network["Output"].Send(print,": Loaded.")
+end
+coroutine.resume(Network["PartOwnership"]["Enable"])
+
+
+--"More"
+for i,v in pairs(LocalPlayer.Character:GetDescendants()) do
+  if v:IsA("Accessory") then
+    Network.RetainPart(v.Handle)
+  end
+end
+
+for i,lplr in pairs(game:GetService("Players"):GetPlayers()) do
+	lplr.Character:WaitForChild("Humanoid").DisplayName = lplr.DisplayName.."\n\@"..lplr.Name
+    lplr.CharacterAdded:Connect(function()
+        lplr.Character:WaitForChild("Humanoid").DisplayName = lplr.DisplayName.."\n\@"..lplr.Name
+    end)
+end
+
+game:GetService("Players").PlayerAdded:Connect(function(lplr)
+    repeat
+		wait()
+	until lplr.Character ~= nil
+	lplr.Character:WaitForChild("Humanoid").DisplayName = lplr.DisplayName.."\n\@"..lplr.Name
+    lplr.CharacterAdded:Connect(function()
+        lplr.Character:WaitForChild("Humanoid").DisplayName = lplr.DisplayName.."\n\@"..lplr.Name
+    end)
+end)
+
+
+local_player = game:GetService("Players").LocalPlayer
+
+character = local_player.Character
+
+character.Hat1:SetAttribute("Minion",true)
+character.LavanderHair:SetAttribute("Minion",true)
+character.Robloxclassicred:SetAttribute("Minion",true)
+character["Kate Hair"]:SetAttribute("Minion",true)
+character["Pal Hair"]:SetAttribute("Minion",true)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "FE Minions V2",
+	Text = "Made by Rouxhaver",
+	Icon = "rbxassetid://12997341656"
+})
+
+for _,hat in pairs(character:GetChildren()) do
+	if hat:IsA("Accessory") and hat:GetAttribute("Minion") == true then
+		local minion = Instance.new("Model",workspace)
+		minion.Name = "Minion"
+
+		local hrp = Instance.new("Part",minion)
+		hrp.Position = Vector3.new(0, 10, 0)
+		hrp.Size = Vector3.new(1, 2, 1)
+		hrp.Transparency = 1
+		hrp.Name = "HumanoidRootPart"
+
+		local torso = Instance.new("Part",minion)
+		torso.Position = hrp.Position
+		torso.Size = Vector3.new(1, 2 ,1)
+		torso.Name = "Torso"
+		torso.Transparency = 1
+
+		local head = Instance.new("Part",minion)
+		head.Position = hrp.Position
+		head.Size = Vector3.new(1,1,1)
+		head.Name = "Head"
+		head.Transparency = 1
+
+		local neck = Instance.new("Motor6D",torso)
+		neck.Part0 = torso
+		neck.Part1 = head
+		neck.Name = "Neck"
+		neck.C0 = CFrame.new(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+		neck.C1 = CFrame.new(0, -0.5, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+		neck.MaxVelocity = 0.1
+
+		local rootjoint = Instance.new("Motor6D",torso)
+		rootjoint.Part0 = hrp
+		rootjoint.Part1 = torso
+		rootjoint.Name = "RootJoint"
+		rootjoint.C0 = CFrame.new( 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+		rootjoint.C1 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+		rootjoint.MaxVelocity = 0.1
+
+		local humanoid = Instance.new("Humanoid",minion)
+		humanoid.HipHeight = 0.01
+
+		hrp.CFrame = character.Head.CFrame
+
+		local animation = Instance.new("Animation",script)
+		animation.AnimationId = "http://www.roblox.com/asset/?id=180426354"
+
+		dance = humanoid:LoadAnimation(animation)
+		dance:Play()
+
+
+		players = game:GetService("Players")
+
+		frame = local_player.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame
+
+		chatbar = frame.ChatBar
+
+		autofill = frame.TextLabel:Clone()
+		autofill.Name = "autofill"
+		autofill.Parent = frame
+		autofill.TextColor3 = Color3.fromRGB(62, 62, 62)
+		autofill.Text = ""
+		autofill.TextTransparency = 0.4
+		autofill.Visible = true
+
+		chatbar:GetPropertyChangedSignal("Text"):Connect(function()
+			local text = chatbar.Text
+			if text:match("/e follow ") then do
+					local remove_autofill = true
+					local player_typed = string.gsub(text,"/e follow ",""):lower()
+					for i,v in pairs(players:GetPlayers()) do
+						if v.Name:sub(0,#player_typed):lower():match(player_typed) then
+							autofill.Text = text..v.Name:sub(#player_typed+1,#v.Name)
+							remove_autofill = false
+							break
+						end
+					end
+					if remove_autofill == true then
+						autofill.Text = ""
+					end
+				end else
+				autofill.Text = ""
+			end
+		end)
+
+		parent = local_player.Character
+
+		local_player.Chatted:Connect(function(chat)
+			if chat:match("/e follow ") then
+				local player_typed = string.gsub(chat,"/e follow ",""):lower()
+				for i,v in pairs(players:GetPlayers()) do
+					if v.Name:sub(0,#player_typed):lower():match(player_typed) then
+						if v.Character ~= nil then
+							parent = v.Character
+						end
+						break
+					end
+				end
+			end
+		end)
+
+		local offset = Vector3.new(math.random(-5,5),math.random(-5,5),math.random(-5,5))
+
+		spawn(function()
+			while wait(math.random(0.001,1.5)) do
+				if math.random(1,7) == 1 then humanoid.Jump = true end
+				if math.random(1,50) == 1 then humanoid.Sit = true end
+				if math.random(1,5) == 1 then offset = Vector3.new(math.random(-5,5),math.random(-5,5),math.random(-5,5)) end
+				if parent:FindFirstChild("Head") then
+					humanoid:MoveTo(parent.Head.Position + offset)
+				end
+			end     
+		end)
+
+		local body = nil
+
+		for i,v in pairs(character:GetDescendants()) do
+			if v:GetAttribute("Minion") == true and v:GetAttribute("Used") == nil then
+				body = v.Handle
+				v:SetAttribute("Used", true)
+				break
+			end
+		end
+
+		local hat = nil
+
+		for i,v in pairs(character:GetDescendants()) do
+			if v:IsA("Accessory") and v:GetAttribute("Minion") == nil and v:GetAttribute("Used") == nil then
+				hat = v.Handle
+				v:SetAttribute("Used", true)
+				break
+			end
+		end
+
+		hat.AccessoryWeld:Destroy()
+
+		body.AccessoryWeld:Destroy()
+
+		body:FindFirstChildOfClass("SpecialMesh"):Destroy()
+		spawn(function()
+			while task.wait() do
+				body.CFrame = torso.CFrame * CFrame.Angles(math.rad(90),0,0)
+				hat.CFrame = head.CFrame
+			end
+		end)
+
+	end
+end
+end)
+
+JY:Toggle("指令(tpua)", "", false, function(Value)
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+JY:Toggle("待更新", "", false, function(Value)
+    All = Value
+    game.RunService.Stepped:Connect(function()
+        for i, e in pairs(game.Players:GetChildren()) do
+            if All and e ~= game.Players.LocalPlayer and e.Character.Humanoid.Health ~= 0 then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = e.Character.HumanoidRootPart.CFrame
+                game.ReplicatedStorage.meleeEvent:FireServer(e)
+                game.Players.LocalPlayer.Character.Humanoid:ChangeState("Jumping")
+            end
+        end
+    end)
+end)    
+    
+JY:Button("待更新", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(835.2199096679688, 99.99000549316406, 2267.0546875)
+end)
+
+JY:Button("待更新", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-943.4600219726562, 94.1287612915039, 2063.6298828125)
+end)
+
+
+JY:Button("待更新", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(918.77001953125, 99.98998260498047, 2379.070068359375)
+end)
+
+JY:Button("待更新", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(779.8699951171875, 97.99992370605469, 2458.929931640625)
+end)
+
+JY:Button("待更新", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(907.4030151367188, 138.5979766845703, 2309.357666015625)
+end)
+
+Tab:Button("导管中心", function()
+      loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\117\115\101\114\97\110\101\119\114\102\102\47\114\111\98\108\111\120\45\47\109\97\105\110\47\37\69\54\37\57\68\37\65\49\37\69\54\37\65\67\37\66\69\37\69\53\37\56\68\37\56\70\37\69\56\37\65\69\37\65\69\34\41\41\40\41\10")()
+end)
+  
+Tab:Button("Qi脚本(强烈推荐🔥🔥)", function()
+      SF_V7 = "作者_神罚"SheFa = "QQ群637340150"loadstring(game:HttpGet(('https://raw.githubusercontent.com/WDQi/SF/main/%E7%9C%8B%E4%BD%A0M.txt')))()
+end)
+  
+Tab:Button("剑客V3", function()
+      jianke_V3 = "作者_初夏"
+
+jianke = "剑客QQ群347724155"
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/jiankeQWQ/jiankeV3/main/jianke_V3')))()
+end)
+      
+Tab:Button("脚本中心", function()
+      loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\103\101\109\120\72\119\65\49"))()
+end)
+     
+Tab:Button("剑客V2", function()
+      loadstring(game:HttpGet(('https://raw.githubusercontent.com/jiankeQWQ/Sword-Guest/main/JKYYDS')))()
+end)
+      
+Tab:Button("XC卡密a", function()
+	  getgenv().XC="作者XC"
+loadstring(game:HttpGet("https://pastebin.com/raw/PAFzYx0F"))()
+end)    
+         
+Tab:Button("鸭hub", function()
+      loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,81,89,49,113,112,99,115,106})end)())))()
+end)
+
+Tab:Button("SH", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/De4aYHDY"))()
+end)
+      
+Tab:Button("青风脚本", function()
+--最新版青风脚本
+loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,116,53,87,75,53,72,48,72})end)())))("青风")
+end)
+    
+    FMTab:Button("暂无",function()
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3581, -179.53941345214844, 430.001953125)
+    end) 
+    
+         
+                   
+
+DoorsQTTab:Button("虚拟键盘", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+DoorsQTTab:Button("自动通A1000", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/CA6Y4K0m"))();
+end)
+
+DoorsZWTab:Button("微山Doors(2.3.2)", function()
+      loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\117\72\72\112\56\102\122\83"))()
+end)
+      
+DoorsZWTab:Button("Doors", function()
+      loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,52,117,109,83,68,85,57,87})end)())))();
+end)      
+
+DoorsZHTab:Button("可以清除东西的枪", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Laser%20Gun"))()
+end)                  
+DoorsZHTab:Button("十字架", function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/FCSyG6Th"))();
+end)
+      
+DoorsZHTab:Button("夜视仪", function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/4Vsv1Xwn"))()
+end)
+
+
+DoorsZHTab:Button("神圣炸弹", function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/u5B1UjGv"))()
+end)
+      
+DoorsZHTab:Button("吸铁石", function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/xHxGDp51"))()
+end)
+      
+DoorsZHTab:Button("剪刀", function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/v2yEJYmu"))()
+end)
+
+DoorsTab:Button("BlackKingq", function()
+      loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+end)
+      
+DoorsTab:Button("MS DOORS", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/mstudio45/MSDOORS/7bd97c2d956a775d683c2d7973d79715b30998ea/MSDOORS/Moonsec.lua'))()
+end)
